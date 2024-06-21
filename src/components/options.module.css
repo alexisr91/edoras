@@ -1,0 +1,22 @@
+.button{
+    outline:none ;
+    border: none;
+    cursor: pointer;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nonSelectedButton{
+    color:white;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.selectedButton{
+   
+    color:black;
+    background: wheat;
+}
+
+.buttonContainer{
+    margin: 0 auto;
+}
