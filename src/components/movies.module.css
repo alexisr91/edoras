@@ -1,6 +1,6 @@
 .movieDashboard{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     background: rgba(0, 0, 0, 0.3);
     color:antiquewhite;
     gap: 8px;
@@ -16,5 +16,16 @@
     max-width: 100%;
     width: 100%;
     word-break: break-all;
+    max-height: 100vh;
+}
+
+.characterSelect{
+   height: 30px;
+   color: white;
+   background-color: rgb(255, 255, 255);
+   border: none; 
+   outline: none;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 18px;
 }
 

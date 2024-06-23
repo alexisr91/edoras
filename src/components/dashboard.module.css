@@ -1,4 +1,7 @@
 
+root{
+    line-height: 0.5em;
+}
 .dashboard{
     display: grid;
     place-items: center;
@@ -28,3 +31,5 @@ div h1{
 button{
     margin-left: 0.3em;
 }
+
+
