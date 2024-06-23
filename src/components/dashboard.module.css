@@ -7,10 +7,24 @@
     z-index: 50;
     position: relative;
     flex:1;
+    max-height: 100vh;
+    
 }
 
 .layout{
     display: flex;
     flex-direction: column;
     gap: 3px;
+    max-width: 100%;
+}
+
+div h1{
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+button{
+    margin-left: 0.3em;
 }

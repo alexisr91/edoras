@@ -1,7 +1,20 @@
 .movieDashboard{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     background: rgba(0, 0, 0, 0.3);
-    color: white;
+    color:antiquewhite;
     gap: 8px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family:'Segoe UI';
+    font-weight:bold;
+    margin-top: 2em;
+    max-width: 100%;
 }
+
+.information{
+    max-width: 100%;
+    width: 100%;
+    word-break: break-all;
+}
+

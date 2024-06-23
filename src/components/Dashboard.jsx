@@ -25,7 +25,7 @@ export default function Dashboard() {
         setSelection(clickedButton)
       }
     }
-    console.log('SELECTION VALUE', selection)
+    console.log('I\'m selecting', selection)
 
     const dataRender = {
       // Don't forget to import our variables 
@@ -44,7 +44,7 @@ export default function Dashboard() {
             {loading && (
                 <Loading />
             )}
-            {(data && !loading) && (
+           {(data && !loading) && (
               dataRender[selection]
             )}
         </div>
